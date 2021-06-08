@@ -70,7 +70,7 @@ setup(
     long_description_content_type="text/markdown",
     cmdclass={'test': PyTest},
     setup_requires=["six",
-                    "numpy<=1.18.4",
+                    "numpy",
                     "setuptools-git",
                    ],
     install_requires=["decorator",
